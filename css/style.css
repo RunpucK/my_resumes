@@ -1,0 +1,84 @@
+body {
+  background-color: #f5f7fa;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.Main_container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  width: 1200px;
+  height: 1320px;
+  background-color: #ffffff;
+}
+
+.abaut_my_profesion {
+  font-weight: bold;
+  font-size: 14px;
+  color: #000000;
+}
+
+.Main_content {
+  display: flex;
+}
+
+.About_me_section {
+  position: absolute;
+  width: 400px;
+  height: 230px;
+  left: 498px;
+  top: 142px;
+}
+
+.My_projects_section {
+  position: absolute;
+  width: 485px;
+  height: 107px;
+  left: 498px;
+  top: 412px;
+}
+
+.My_work_expirientce {
+  position: absolute;
+  width: 525px;
+  height: 213px;
+  left: 500px;
+  top: 570px;
+}
+
+.My_work_expirientce_3 {
+  height: 213px;
+  top: 570px;
+}
+
+.My_work_expirientce_2 {
+  height: 150px;
+  top: 801px;
+}
+
+.My_work_expirientce_1 {
+  height: 126px;
+  top: 969px;
+}
+
+.My_Education_section {
+  position: absolute;
+  width: 327px;
+  height: 114px;
+  left: 500px;
+  top: 1138px;
+}
+
+.Sidebar_section {
+  position: absolute;
+  width: 370px;
+  height: 1320px;
+  background-color: #1e2939;
+}
+
+img {
+  margin-top: 40px;
+}
