@@ -5,6 +5,48 @@ body {
   justify-content: center;
 }
 
+li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+}
+
+h5 {
+}
+.About_me {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
 .Main_container {
   position: absolute;
   display: flex;
@@ -15,30 +57,20 @@ body {
   background-color: #ffffff;
 }
 
-.abaut_my_profesion {
-  font-weight: bold;
-  font-size: 14px;
-  color: #000000;
-}
-
-.Main_content {
-  display: flex;
-}
-
 .About_me_section {
   position: absolute;
-  width: 400px;
+  width: 500px;
   height: 230px;
-  left: 498px;
-  top: 142px;
+  left: 500px;
+  top: 140px;
 }
 
 .My_projects_section {
   position: absolute;
-  width: 485px;
-  height: 107px;
-  left: 498px;
-  top: 412px;
+  width: 500px;
+  height: 100px;
+  left: 500px;
+  top: 410px;
 }
 
 .My_work_expirientce {
@@ -47,6 +79,8 @@ body {
   height: 213px;
   left: 500px;
   top: 570px;
+  font-size: 14px;
+  background-color: coral;
 }
 
 .My_work_expirientce_3 {
@@ -81,4 +115,16 @@ body {
 
 img {
   margin-top: 40px;
+}
+
+.My_contacts_section {
+  margin-left: 40px;
+}
+
+.My_Tech_Skills_section {
+  margin-left: 40px;
+}
+
+.My_Soft_Skills_section {
+  margin-left: 40px;
 }
