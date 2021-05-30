@@ -1,6 +1,9 @@
 body {
   background-color: #f5f7fa;
   font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
   display: flex;
   justify-content: center;
 }
@@ -10,238 +13,184 @@ body {
   padding: 0;
 }
 
-.Main_container li,
-a {
-  font-style: normal;
-  font-weight: normal;
+.Main_container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 40px;
+  width: 1200px;
+  height: 1320px;
+  background-color: #fff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.Main_content {
+  width: 540px;
+  padding: 100px 200px 0 90px;
+}
+
+.Main_content h1 {
+  margin-top: 19px;
+  margin-bottom: 24px;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000;
+}
+
+.Main_content h2 {
+  font-weight: bold;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 17px;
+  color: #000;
+}
+
+.Main_content h3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+}
+
+.Main_content h4 {
+  padding: 12px 0 11px 0;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+}
+
+.Main_content h5 {
+  padding-bottom: 11px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.About_me {
+  padding: 0px;
+}
+
+.My_projects {
+  margin-top: 40px;
+  height: auto;
+  left: 60px;
+}
+
+/*
+.My_projects ol {
+  padding: 8px 0 0 18px;
+}
+
+.My_projects li {
+  font-weight: bold;
+  color: #000;
+}
+
+*/
+
+.My_projects table {
+  padding: 8px 0 0 0;
+  border-spacing: 0;
+}
+
+.My_projects a {
+  padding-left: 13px;
+  text-decoration: none;
   color: #595959;
 }
 
-.Main_container p {
-  font-style: normal;
+.table_bold {
+  font-weight: bold;
+  color: #000;
+}
+
+.table_dot {
+  margin-right: 5px;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  color: #a8a8a8;
+}
+
+.table_leng {
+  font-weight: normal;
   color: #595959;
 }
 
-.My_work_expirientce ul,
-ol {
-  margin-left: 18px;
-  list-style-position: outside;
+.My_work_expirientce {
+  margin-top: 50px;
+}
+
+.My_Education_section p,
+.My_work_expirientce p {
+  font-size: 12px;
+  color: #a8a8a8;
+}
+
+.My_Education_section p span,
+.My_work_expirientce p span {
+  color: #000;
 }
 
 .My_work_expirientce span {
   color: #fb6d3a;
 }
 
-.My_work_expirientce p {
-  margin-bottom: 8px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
-  color: #a8a8a8;
-  top: 50px;
-  bottom: 50px;
-}
-
-h1 {
-  margin-top: 19px;
-  margin-bottom: 24px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 45px;
-  line-height: 55px;
-  color: #000000;
-}
-
-h2 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  color: #000000;
-}
-
-h3 {
-  margin-bottom: 8px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 27px;
-  color: #000000;
-}
-
-h4 {
-  margin-top: 18px;
-  margin-bottom: 11px;
-  width: 327px;
-  height: 20px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  color: #000000;
-}
-
-h5 {
-  margin-bottom: 11px;
-  width: 99px;
-  height: 17px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  color: #000000;
-}
-.About_me {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #595959;
-}
-
-.Main_container {
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  margin: 40px 0 0 0;
-  width: 1200px;
-  height: 1320px;
-  background-color: #ffffff;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-}
-
-/*.Main_content {
-  width: 500px;
-  height: auto;
-  left: 500px;
-  top: 100px;
-  background-color: crimson;
-}*/
-
-.About_me_section {
-  position: absolute;
-  margin-top: 100px;
-  width: 450px;
-  height: auto;
-  left: 460px;
-}
-
-.My_projects_section {
-  position: absolute;
-  margin-top: 340px;
-  width: 500px;
-  height: auto;
-  left: 460px;
-}
-
-.My_work_expirientce {
-  position: absolute;
-  margin-top: 500px;
-  width: 550px;
-  height: auto;
-  left: 460px;
-  font-size: 14px;
-}
-
-.My_work_expirientce_3 {
-  height: 190px;
-  top: 570px;
-}
-
-.My_work_expirientce_2 {
-  height: 150px;
-  top: 801px;
-}
-
-.My_work_expirientce_1 {
-  height: 126px;
-  top: 969px;
-  background-color: violet;
+.My_work_expirientce ul {
+  padding: 8px 0 6px 18px;
 }
 
 .My_Education_section {
-  position: absolute;
-  width: 327px;
-  height: 114px;
-  left: 460px;
-  top: 1100px;
+  margin-top: 43px;
 }
 
 .My_Education_section h4 {
   color: #fb6d3a;
 }
 
-.Sidebar_section {
-  position: absolute;
+.Sidebar {
+  padding: 40px 0;
   width: 370px;
-  height: 1320px;
   background-color: #1e2939;
-  color: #ffffff;
+  color: #fff;
+  justify-content: right;
 }
 
-/* Sidebar */
-
-.Sidebar_section a {
-  margin-left: 10px;
-  color: #ffffff;
-  opacity: 0.5;
-}
-
-img {
-  margin-top: 40px;
-}
-
-.My_contacts_section {
-  margin-top: 50px;
-  margin-left: 40px;
-  width: 200px;
-}
-
-.My_contacts_section span {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  list-style: none;
-  background-color: aqua;
-  line-height: 24px;
-}
-
-.My_Tech_Skills_section {
-  margin-left: 40px;
-}
-
-.My_Soft_Skills_section {
-  margin-left: 40px;
-}
-.Sidebar_section h3 {
-  font-style: normal;
+.Sidebar h3 {
+  padding-bottom: 8px;
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
-  color: #ffffff;
 }
-.Sidebar_section li {
-  font-style: normal;
+
+.Sidebar a {
+  padding-left: 10px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.Sidebar li {
+  margin-left: 20px;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #ffffff;
-}
-
-.Sidebar_section ul {
-  list-style: none;
-}
-
-.Sidebar_section li::before {
-  content: '\2022';
   color: #fb6d3a;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
+}
+
+.Sidebar span {
+  color: #fff;
+}
+
+.My_contacts {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.My_Tech_Skills {
+  margin-top: 47px;
+  margin-left: 40px;
+}
+
+.My_Soft_Skills {
+  margin-top: 44px;
+  margin-left: 40px;
 }
